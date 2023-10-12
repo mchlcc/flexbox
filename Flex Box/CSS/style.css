@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    width: 1080px;
+    height: 800px;
+    flex-direction: column;
+}
+
+.fdiv{
+    flex-direction: column;
+    border: 2px solid;
+    text-align: center;
+}
+
+.sdiv{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.tdiv{
+    flex-direction: column;
+    border: 2px solid;
+    text-align: center;
+
+}
+
+.ld{
+    border: 2px solid;
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.cd{
+    border: 2px solid;
+    flex-grow: 5;
+    text-align: center;
+}
+
+
+
